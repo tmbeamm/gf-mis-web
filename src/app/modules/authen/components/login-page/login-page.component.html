@@ -1,0 +1,24 @@
+<div class="bg">
+    <mat-card class="login-card">
+      <div class="from-login">
+        <img class="img-logo" style="margin-top:70px; margin-bottom:70px;" [src]="imgPath">
+        <!-- <form [formGroup]="formLogin" (ngSubmit)="submit()">
+          <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="username" required>
+            <mat-icon matSuffix>person_outline</mat-icon>
+          </mat-form-field>
+          <br />
+          <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput formControlName="password" required>
+            <mat-icon matSuffix>lock</mat-icon>
+          </mat-form-field>
+          <br />
+          <button class="login-button" type="submit" mat-flat-button color="primary">Login</button>
+        </form> -->
+        <button class="login-button" (click)="authen()" mat-flat-button color="primary">Login With Secure Certs</button>
+      </div>
+    </mat-card>
+  </div>
+  
